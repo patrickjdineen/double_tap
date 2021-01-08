@@ -3,10 +3,22 @@ html{
 }
 
 /*Nav Bar Styling*/
+
+
+a{
+    display:block;
+    text-decoration: none;
+}
+.container{
+    margin-top: 1.6rem;
+}
 .nav_bar{
+    max-width: 100%;
+    height: 4.4rem;
     display:flex;
+    padding: 0 2rem;
+    list-style: none;
     color:grey;
-    align-self:flex-end;
     justify-content: space-between;
     padding:1vh 5vw 0;
     align-items:flex-end;
@@ -15,7 +27,7 @@ html{
     margin-bottom: 10vh;
 }
 .nav_bar a{
-    font-family:sans-serif;
+    list-style: none;
     text-decoration: none;
     color:black;
 }
@@ -68,6 +80,83 @@ p.centered {
     display:flex;
 }
 
+/* .bk{
+    border: solid grey;
+} */
+.accept-pay-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* border: solid grey; */
+    margin-top: 8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 1rem 0rem 0rem 1rem;
+    border-width: 10px;
+}
+.accept-pay{
+    background-size: cover;
+    height: 36rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+.bb-left{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 1rem 0rem 0rem 1rem;    
+    /* background: cover; */
+    background-color: none;
+    width: 40rem;
+    padding: 2rem;
+}
+.accept-pay-background{
+    border-radius: 0rem 1rem 1rem 0rem;    
+    background: cover;
+    width: 40rem;
+    padding: 2rem;
+    background-color: #0314FE;
+    border: 1px solid grey;
+}
+
+.title-accept-pay{
+    font-size: 25px;
+    text-align: left;
+    color: #000;    
+}
+.text-light{
+    margin-top: 3rem;
+    margin-bottom: 2.6rem;
+    /* margin-left: 1rem; */
+}
+.acceptlist{
+    font-size: 12px;
+    margin-bottom: 4rem;
+    color: #fff;
+    
+}
+.btn{
+    display: block;
+    margin-top: 2.2rem;
+    margin-right: 18rem;
+    border-width: 2px;
+    border-radius: 10px;
+    color: #fff;
+    border-color: #fff;  
+}
+
+.accept-carat{
+    position: relative;
+    left: 4rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
 .footer-row{
     background-color: rgba(18 64 238);
     color: white;
@@ -117,3 +206,4 @@ p.centered {
 #lets-get-started{
     font-size: 17px;
 }
+

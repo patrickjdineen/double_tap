@@ -4,15 +4,16 @@
     color:grey;
     align-self:flex-end;
     justify-content: space-between;
-    padding:5vh;
-    align-items:baseline;
+    padding:1vh 5vw 0;
+    align-items:flex-end;
+    align-content:flex-end;
     flex-wrap:wrap;
-
+    margin-bottom: 10vh;
 }
 .nav_bar a{
     font-family:sans-serif;
     text-decoration: none;
-    color:grey;
+    color:black;
 }
 
 .nav_bar .btn-outline-primary{

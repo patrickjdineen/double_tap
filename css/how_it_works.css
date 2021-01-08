@@ -4,19 +4,24 @@
     color:grey;
     align-self:flex-end;
     justify-content: space-between;
-    padding:0 5vw;
-    align-items:center;
+    padding:5vh;
+    align-items:baseline;
     flex-wrap:wrap;
-    margin-bottom: 10vh;
+
 }
 .nav_bar a{
     font-family:sans-serif;
     text-decoration: none;
     color:grey;
 }
-.nav_bar a:hover{
-    text-decoration:underline;
+
+.nav_bar .btn-outline-primary{
+    color:blue;
 }
+.nav_bar .btn-primary{
+    color:white
+}
+
 .nav_bar li{
     display:inline-block;
     padding:0 1vw 0 1vw;

@@ -4,23 +4,30 @@
     color:grey;
     align-self:flex-end;
     justify-content: space-between;
-    padding:0 5vw;
-    align-items:center;
+    padding:1vh 5vw 0;
+    align-items:flex-end;
+    align-content:flex-end;
     flex-wrap:wrap;
     margin-bottom: 10vh;
 }
 .nav_bar a{
     font-family:sans-serif;
     text-decoration: none;
-    color:grey;
+    color:black;
 }
-.nav_bar a:hover{
-    text-decoration:underline;
+
+.nav_bar .btn-outline-primary{
+    color:blue;
 }
+.nav_bar .btn-primary{
+    color:white
+}
+
 .nav_bar li{
     display:inline-block;
     padding:0 1vw 0 1vw;
 }
+
 #payments{
     background-color: blue;
     align-items: center;
@@ -49,4 +56,13 @@
 p.centered {
     
     text-align: center;
+}
+=======
+    padding:0 2vw 0 2vw;
+}
+
+
+
+.row-1{
+    display:flex;
 }

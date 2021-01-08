@@ -1,16 +1,36 @@
 /*Nav Bar Styling*/
+/* *,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+} */
+html{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+a{
+    display:block;
+    text-decoration: none;
+}
+
 .nav_bar{
+    max-width: 100%;
+    height: 4.4rem;
     display:flex;
+    padding: 0 2rem;
+    list-style: none;
     color:grey;
-    align-self:flex-end;
     justify-content: space-between;
-    padding:0 5vw;
     align-items:center;
-    flex-wrap:wrap;
-    margin-bottom: 10vh;
+    margin: 0 -1rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    backdrop-filter: blur(2rem);
 }
 .nav_bar a{
-    font-family:sans-serif;
+    list-style: none;
     text-decoration: none;
     color:grey;
 }
@@ -20,4 +40,37 @@
 .nav_bar li{
     display:inline-block;
     padding:0 1vw 0 1vw;
+}
+.container{
+    margin-top: 2rem;
+    border-radius: 33rem;
+}
+.focus-bis{
+    width: 33rem;
+    height: 25rem;
+    display: inline;
+    border-style: none;
+    
+}
+.text{
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+    padding-top: 1.6rem;
+    
+}
+.card{
+    border-style: none;
+}
+.bt-move{
+    max-width: 33rem;
+    display: inline;
+    justify-content: center;  
+}
+.bt-move-sub{
+    display: block;
+    justify-content: center;
+    /* margin-left: -.4rem; */
+}
+.focus-p{
+    text-align: center;
 }

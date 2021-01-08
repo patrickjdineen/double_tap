@@ -33,6 +33,7 @@ html{
     padding:0 1vw 0 1vw;
 }
 
+<<<<<<< HEAD
 #payments{
     background-color: blue;
     align-items: center;
@@ -67,3 +68,46 @@ p.centered {
 .row-1{
     display:flex;
 }
+=======
+h2{
+    align-items: center;
+}
+
+#explore div{
+    display:flex;
+    color:rgb(0, 0, 0);
+    justify-content: space-between;
+    padding:0 5vw;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-bottom: 10vh;
+}
+
+#payments{
+    background-color: blue;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    
+
+}
+#retain{ 
+    align-items: center;
+    border-style: solid;
+    border-radius: 25px;
+}
+
+#explore img{
+    display:block;
+    margin:2vw auto;
+    text-align: center;
+}
+
+#explore p{
+    display:block;
+    text-align:center;
+    margin:0 auto;
+}
+
+>>>>>>> e2e9ffa (halim and will jan 7 end of day)

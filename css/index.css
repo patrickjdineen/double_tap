@@ -67,3 +67,53 @@ p.centered {
 .row-1{
     display:flex;
 }
+
+.footer-row{
+    background-color: rgba(18 64 238);
+    color: white;
+    margin: auto 0vw;
+    
+
+}
+.container-footer{
+    text-align: center;
+    padding: 2vh 0 8vh 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.get-started{
+    background-color: rgba(118 206 61);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    padding: .6vh 1vw;
+    max-width: 30vw;
+}
+.footer-buttons{
+    padding: 0 18vw;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.chat-with-us{
+    color: rgba(18 64 238);
+    border-color: white;
+    border-radius: 9px;
+    border: none;
+    text-align: center;
+    padding: .6vh 1vw;
+    max-width: 30vw;
+}
+.footer-dot-line{
+    margin-top: 1vw;
+    font-size: 13px;
+    
+}
+#lets-get-started{
+    font-size: 17px;
+}

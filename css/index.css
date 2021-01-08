@@ -9,7 +9,9 @@ a{
     display:block;
     text-decoration: none;
 }
-
+.container{
+    margin-top: 1.6rem;
+}
 .nav_bar{
     max-width: 100%;
     height: 4.4rem;
@@ -78,12 +80,6 @@ p.centered {
     display:flex;
 }
 
-/* .bk .accept-pay{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-} */
 .accept-pay-img{
     max-width: auto;
     max-height: 18rem;
@@ -92,7 +88,7 @@ p.centered {
 }
 .accept-pay{
     background-size: cover;
-    height: 30rem;
+    height: 36rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     display: flex;
@@ -100,10 +96,9 @@ p.centered {
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.accept-pay-background{
-    
+.accept-pay-background{    
     background: cover;
-    width: 26.6rem;
+    width: 35rem;
     background-color: blue;
 }
 
@@ -122,4 +117,8 @@ p.centered {
     margin-left: 1.6rem;
     color: #fff;
     
+}
+
+.accept-btn{
+    margin-left: 1.6rem;
 }

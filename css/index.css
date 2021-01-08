@@ -1,3 +1,7 @@
+html{
+    font-family:sans-serif
+}
+
 /*Nav Bar Styling*/
 .nav_bar{
     display:flex;
@@ -22,6 +26,7 @@
 .nav_bar .btn-primary{
     color:white
 }
+
 
 .nav_bar li{
     display:inline-block;

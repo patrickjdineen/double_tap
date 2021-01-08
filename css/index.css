@@ -79,12 +79,21 @@ p.centered {
 .row-1{
     display:flex;
 }
-
+/* .bk{
+    border: solid grey;
+} */
 .accept-pay-img{
-    max-width: auto;
-    max-height: 18rem;
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* border: solid grey; */
+    margin-top: 8rem;
     margin-top: auto;
     margin-bottom: auto;
+    border-radius: 1rem 0rem 0rem 1rem;
+    border-width: 10px;
 }
 .accept-pay{
     background-size: cover;
@@ -93,19 +102,30 @@ p.centered {
     margin-bottom: 3rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
-.accept-pay-background{    
+.bb-left{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 1rem 0rem 0rem 1rem;    
+    /* background: cover; */
+    background-color: none;
+    width: 40rem;
+    padding: 2rem;
+}
+.accept-pay-background{
+    border-radius: 0rem 1rem 1rem 0rem;    
     background: cover;
-    width: 35rem;
-    background-color: blue;
+    width: 40rem;
+    padding: 2rem;
+    background-color: #0314FE;
+    border: 1px solid grey;
 }
 
 .title-accept-pay{
     font-size: 25px;
     text-align: left;
-    margin-left: 3rem;
     color: #000;    
 }
 .text-light{
@@ -114,11 +134,24 @@ p.centered {
     /* margin-left: 1rem; */
 }
 .acceptlist{
-    margin-left: 1.6rem;
+    font-size: 12px;
+    margin-bottom: 4rem;
     color: #fff;
     
 }
+.btn{
+    display: block;
+    margin-top: 2.2rem;
+    margin-right: 18rem;
+    border-width: 2px;
+    border-radius: 10px;
+    color: #fff;
+    border-color: #fff;  
+}
 
-.accept-btn{
-    margin-left: 1.6rem;
+.accept-carat{
+    position: relative;
+    left: 4rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
 }

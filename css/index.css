@@ -17,23 +17,34 @@ body{
     flex-wrap:wrap;
     margin-bottom: 10vh;
 }
+    /* Coloring and removal of underlines on navbar links*/
 .nav_bar a{
     font-family:sans-serif;
     text-decoration: none;
     color:black;
 }
-
+    /* Coloring on buttons*/
 .nav_bar .btn-outline-primary{
-    color:blue;
+    color:0314FE;
 }
 .nav_bar .btn-primary{
     color:white
 }
-
-
+    /* Changes NavBar list items to horizonta;*/
 .nav_bar li{
     display:inline-block;
     padding:0 1vw 0 1vw;
+}
+/* End Nav Bar */
+
+/* Header Styling*/
+.header_right{
+    max-height:30%;
+    max-width:80%;
+}
+
+.container{
+    margin-top: 1.6rem;
 }
 
 #payments{
@@ -67,6 +78,127 @@ p.centered {
     padding:0 2vw 0 2vw;
 }
 
-.row-1{
-    display:flex;
+/* .bk{
+    border: solid grey;
+} */
+
+/* Start Accepting Payments with Ease Section*/
+.accept-pay-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* max-width: 100%;
+    max-height: 100%; */
+    /* border: solid grey; */
+    margin-top: 8rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 1rem 0rem 0rem 1rem;
+    border-width: 10px;
+}
+.accept-pay{
+    background-size: cover;
+    height: 36rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+}
+.bb-left{
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 1rem 0rem 0rem 1rem;    
+    /* background: cover; */
+    background-color: none;
+    width: 40rem;
+    padding: 2rem;
+}
+.accept-pay-background{
+    border-radius: 0rem 1rem 1rem 0rem;    
+    background: cover;
+    width: 40rem;
+    padding: 2rem;
+    background-color: #0314FE;
+    border: 1px solid grey;
+}
+
+.title-accept-pay{
+    font-size: 25px;
+    text-align: left;
+    color: #000;    
+}
+.text-light{
+    margin-top: 3rem;
+    margin-bottom: 2.6rem;
+    /* margin-left: 1rem; */
+}
+.acceptlist{
+    font-size: 12px;
+    margin-bottom: 4rem;
+    color: #fff;
+    
+}
+
+.accept-btn{
+    display: block;
+    margin-top: 2.2rem;
+    margin-right: 18rem;
+    border-width: 2px;
+    border-radius: 10px;
+    color: #fff;
+    border-color: #fff;  
+}
+
+.accept-carat{
+    position: relative;
+    left: 4rem;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+
+
+/* Footer Styling*/
+.footer-row{
+    background-color: rgba(18 64 238);
+    color: white;
+    margin: auto 0vw;
+}
+.container-footer{
+    text-align: center;
+    padding: 2vh 0 8vh 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.get-started{
+    background-color: rgba(118 206 61);
+    color: white;
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    padding: .6vh 1vw;
+    max-width: 30vw;
+}
+.footer-buttons{
+    padding: 0 18vw;
+    display: flex;
+    justify-content: space-around; 
+}
+.chat-with-us{
+    color: rgba(18 64 238);
+    border-color: white;
+    border-radius: 9px;
+    border: none;
+    text-align: center;
+    padding: .6vh 1vw;
+    max-width: 30vw;
+}
+.footer-dot-line{
+    margin-top: 1vw;
+    font-size: 13px;  
+}
+#lets-get-started{
+    font-size: 17px;
 }

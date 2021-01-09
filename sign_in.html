@@ -13,20 +13,45 @@
 
 <body>
     <div class="container">
-        <div class="row sign_in">
-            <div class="left_side">
-                <h2>Don't have an account yet?</h2>
-                <h2>What are you waiting for? Let's fix that now!</h2>
-                <button class="btn btn-primary">Sign Up</button>
+        <div class="row">
+            <!--Left side of the page-->
+            <div class="left align-self-center col-8">
+                <div class="signuptext">
+                    <h5>Don't Have an Account Yet?</h5>
+                    <h5>What are you waiting for? Let's Fix that now!</h5>
+                    <button class="btn btn-primary rounded-pill">Sign Up</button>
+                    </div>
+                <img src="images/Group 15.png" class="img">    
             </div>
-            <div class="sign_in_form">
-                <h1>Sign In</h1>
-                <form></form>
-                <button class="btn btn-primary">Sign In</button>
-                <h4>Or Sign In with Social Platforms</h4>
-            </div>
+            
+            <!--Right side of the page-->
+            <div class="right align-self-center col-4">
+                <form class="sign_in">
+                    <h1>Sign In</h1>
+                    <div class="form-group">
+                        <label for="username"></label>
+                        <input type="email" class="form-control rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="User Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1"></label>
+                        <input type="email" class="form-control rounded-pill" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1"></label>
+                        <input type="password" class="form-control rounded-pill" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <button class="btn btn-primary rounded-pill">Sign Up</button>
+                    <p><br>Or sign in with social platforms</p>
+                    <div class="social_images">
+                        <img src="images/facebook.png" alt="Facebook">
+                        <img src="images/twitter.png" alt="Twitter">
+                        <img src="images/google.png" alt="Google">
+                        <img src="images/linkedin.png" alt="Linkedin">
+                </div>
+            </form>
         </div>
     </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
 </body>

@@ -3,7 +3,6 @@ html{
 }
 
 /*Nav Bar Styling*/
-/*Nav Bar Styling*/
 .nav_bar{
     display:flex;
     color:grey;
@@ -15,29 +14,32 @@ html{
     flex-wrap:wrap;
     margin-bottom: 10vh;
 }
+    /* Coloring and removal of underlines on navbar links*/
 .nav_bar a{
     font-family:sans-serif;
     text-decoration: none;
     color:black;
 }
-
+    /* Coloring on buttons*/
 .nav_bar .btn-outline-primary{
-    color:blue;
+    color:0314FE;
 }
 .nav_bar .btn-primary{
     color:white
 }
-
+    /* Changes NavBar list items to horizonta;*/
 .nav_bar li{
     display:inline-block;
     padding:0 1vw 0 1vw;
 }
+/* End Nav Bar */
 
-
-a{
-    display:block;
-    text-decoration: none;
+/* Header Styling*/
+.header_right{
+    max-height:30%;
+    max-width:80%;
 }
+
 .container{
     margin-top: 1.6rem;
 }
@@ -73,13 +75,11 @@ p.centered {
     padding:0 2vw 0 2vw;
 }
 
-.row-1{
-    display:flex;
-}
-
 /* .bk{
     border: solid grey;
 } */
+
+/* Start Accepting Payments with Ease Section*/
 .accept-pay-img{
     position: relative;
     width: 100%;
@@ -137,7 +137,8 @@ p.centered {
     color: #fff;
     
 }
-.btn{
+
+.accept-btn{
     display: block;
     margin-top: 2.2rem;
     margin-right: 18rem;
@@ -154,12 +155,12 @@ p.centered {
     font-weight: bolder;
 }
 
+
+/* Footer Styling*/
 .footer-row{
     background-color: rgba(18 64 238);
     color: white;
     margin: auto 0vw;
-    
-
 }
 .container-footer{
     text-align: center;
@@ -167,8 +168,6 @@ p.centered {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-
 }
 .get-started{
     background-color: rgba(118 206 61);
@@ -182,9 +181,7 @@ p.centered {
 .footer-buttons{
     padding: 0 18vw;
     display: flex;
-    justify-content: space-around;
-
-    
+    justify-content: space-around; 
 }
 .chat-with-us{
     color: rgba(18 64 238);
@@ -197,10 +194,8 @@ p.centered {
 }
 .footer-dot-line{
     margin-top: 1vw;
-    font-size: 13px;
-    
+    font-size: 13px;  
 }
 #lets-get-started{
     font-size: 17px;
 }
-

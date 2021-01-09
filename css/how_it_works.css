@@ -10,23 +10,25 @@
     flex-wrap:wrap;
     margin-bottom: 10vh;
 }
+/* Coloring and removal of underlines on navbar links*/
 .nav_bar a{
     font-family:sans-serif;
     text-decoration: none;
     color:black;
 }
-
+/* Coloring on buttons*/
 .nav_bar .btn-outline-primary{
-    color:blue;
+    color:0314FE;
 }
 .nav_bar .btn-primary{
     color:white
 }
-
+/* Changes NavBar list items to horizonta;*/
 .nav_bar li{
     display:inline-block;
     padding:0 1vw 0 1vw;
 }
+/* End Nav Bar */
 
 /* Footer Style*/
 

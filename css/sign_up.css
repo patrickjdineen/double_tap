@@ -1,3 +1,4 @@
+/*Left side of the page*/
 .btn-primary{
     margin-top:1vh;
     color:white;
@@ -11,10 +12,12 @@
     text-align:center;
     padding-top:5vh;
 }
+.form-group{
+    padding:1vh;
+}
+
+/*Right side of the page*/
 .right img{
     max-width:100%;
     max-height:100%;
-}
-.form-group{
-    padding:1vh;
 }

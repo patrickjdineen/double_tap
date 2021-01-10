@@ -52,7 +52,7 @@ body{
 #hdr-main{
     display: flex;
     align-items: center;
-
+}
 /* Header Styling*/
 .header_right img{
   max-height:90%;

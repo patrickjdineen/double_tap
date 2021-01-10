@@ -4,20 +4,24 @@
 Navbar
 Pat Dineen
 
-Header imaage
+Header image
 Pat Dineen
 Alejandro Beltran
 
-Four boxes
-Santiago Ruiz
+Start to Explore Double Tap Icons
+Halim Majdid
 Will Bush
 
-How it Works page
+Start Accepting Payments with Ease Container
+Santiago Ruiz
 Will Bush
 
 Footer
 Alejandro Beltram
 Halim Majdid
+
+How it Works page
+Will Bush
 
 Sign In page
 Pat Dineen

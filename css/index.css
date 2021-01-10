@@ -46,17 +46,12 @@ body{
 
 
 /* start Focus on your business -Pat and Alejandro*/
-#hdr-main{
-    display: flex;
-    align-items: center;
-}
-/* Header Styling*/
 .header_right img{
-  max-height:90%;
-  max-width:90%;
-  display:block;
-  margin-left:auto;
-  margin-right:0;
+    max-height:600px;
+    max-width:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:0;
 }
 .header_left h1{
     font-weight:bold;
@@ -70,46 +65,25 @@ body{
     padding-top:1vh;
     color:grey;
     font-size:1rem;
-
 }
-/*end of header styling*/
-
 #hdr-left{
     display:flex;
-    flex-direction: column;;
+    flex-direction: column;
     align-content: center;
     padding-bottom: 5%;
     }
-
-.header_right > img{
-    max-height:600px;
-    max-width:auto;
-}
-
-#hdr-left > h1{
-    font-size: 4em;
-}
-
 #hdr-left > h3{
     font-size: 2em;
 }
-
 .bullets{
     color:#0314FE;
     font-size: 2em;
-
 }
-
 #left-col-bottom {
     display: flex;
     align-items: center;
     font-weight: bold;
 }
-
-#hdr-left > p{
-    color:grey;
-}
-
 .hdr-buttons > button{
     border-radius: 9px;
     text-align: center;
@@ -117,7 +91,6 @@ body{
     height: 60px;
     font-size: 1.2em;
 }
-
 /* End focus on your business*/
 
 
@@ -311,13 +284,13 @@ hr.solid {
 /*End solutions to fit your business needs*/
 
 
-/* Start Footer Styling -Alejandro and Halim-*/
+/* Footer Style*/
+
 .footer-row{
     background-color: rgba(18 64 238);
     color: white;
     margin: auto 0vw;
 }
-
 .container-footer{
     text-align: center;
     padding: 2vh 0 8vh 0;
@@ -325,7 +298,6 @@ hr.solid {
     justify-content: center;
     flex-direction: column;
 }
-
 .get-started{
     background-color: rgba(118 206 61);
     color: white;
@@ -337,11 +309,10 @@ hr.solid {
 }
 
 .footer-buttons{
-    padding: 0 8vw;
-    display:flex;
-    justify-content: space-around; 
+    padding: 0 18vw;
+    display: flex;
+    justify-content: space-around;
 }
-
 .chat-with-us{
     color: rgba(18 64 238);
     border-color: white;
@@ -351,14 +322,11 @@ hr.solid {
     padding: .6vh 1vw;
     max-width: 30vw;
 }
-
 .footer-dot-line{
     margin-top: 1vw;
-    font-size: 13px;  
+    font-size: 13px;
+    
 }
-
 #lets-get-started{
     font-size: 17px;
 }
-
-/* end Footer Styling -Alejandro and Halim-*/

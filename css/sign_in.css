@@ -1,3 +1,11 @@
+html{
+    font-family:sans-serif;
+}
+
+body{
+    font-family: sans-serif;
+}
+
 /*Left side of the page*/
 .left{
     clip-path: ellipse(80% 100% at 11% 0%);

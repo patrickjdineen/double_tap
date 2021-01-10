@@ -1,3 +1,12 @@
+html{
+    font-family:sans-serif;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+
 /*start Nav Bar*/
 #nav_bar{
     display:flex;
@@ -35,29 +44,52 @@
 }
 /* End Nav Bar */
 
-/* Header Styling*/
+/* start Focus on your business -Pat and Alejandro*/
 .header_right img{
-    max-height:90%;
-    max-width:90%;
+    max-height:600px;
+    max-width:auto;
     display:block;
     margin-left:auto;
     margin-right:0;
-  }
-  .header_left h1{
-      font-weight:bold;
-      padding-top:1vh;
-      font-size:4rem;
-  }
-  .header_left span{
-      padding-top:1vh
-  }
-  .header_left p{
-      padding-top:1vh;
-      color:grey;
-      font-size:1rem;
-  }
-  /*end of header styling*/
-
+}
+.header_left h1{
+    font-weight:bold;
+    padding-top:1vh;
+    font-size:4rem;
+}
+.header_left span{
+    padding-top:1vh
+}
+.header_left p{
+    padding-top:1.5vh;
+    color:grey;
+    font-size:1rem;
+}
+#hdr-left{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    padding-bottom: 5%;
+    }
+#hdr-left > h3{
+    font-size: 2em;
+}
+.bullets{
+    color:#0314FE;
+    font-size: 2em;
+}
+#left-col-bottom {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.hdr-buttons > button{
+    border-radius: 9px;
+    text-align: center;
+    width: 180px;
+    height: 60px;
+    font-size: 1.2em;
+}
 /* How it Works and First Lorem Text*/
 
 #lorem1{
@@ -162,8 +194,6 @@
     background-color: rgba(18 64 238);
     color: white;
     margin: auto 0vw;
-    
-
 }
 .container-footer{
     text-align: center;
@@ -171,8 +201,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
-
 }
 .get-started{
     background-color: rgba(118 206 61);
@@ -183,12 +211,11 @@
     padding: .6vh 1vw;
     max-width: 30vw;
 }
+
 .footer-buttons{
     padding: 0 18vw;
     display: flex;
     justify-content: space-around;
-
-    
 }
 .chat-with-us{
     color: rgba(18 64 238);

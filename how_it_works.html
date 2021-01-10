@@ -29,23 +29,30 @@
     </nav>
 
     <!--Header image and buttons-->
-    <div class="row">
-        <div class="header_left col">
-            <h1>Focus on</h1>
-            <h1>Your Business</h1>
-            <h3>Let Us Handle Everything Else</h3>
-            <p>Subscription Billing, powered with revenue retention tools and a seamless customer experience - without the technical hurdles.</p>
-            <button type="button" class="btn btn-primary"><strong>Sign Up Free &#187;</strong></button>
-            <button type="button" class="btn btn-outline-primary"><strong>Chat With Us</strong></button>
-            <p>Already using <strong>Double</strong>Tap? <strong>Sign In</strong></p>
-            <span>Free 14 day trial</span> <span>•</span> <span>Manage Customers in Minutes</span> <span>•</span> <span>Cancel at Anytime</span>
-        </div>
-        <div class="header_right col">
+        <!--Header image and buttons-->
+        <div class="row" id="hdr-main">
+            <div class="header_left col" id= "hdr-left">
+                <h1><strong>Focus on</strong></h1>
+                <h1><strong>Your Business</strong></h1>
+                <h3>Let Us Handle Everything Else</h3>
+                <br />
+                <p><strong>Subscription Billing, powered with revenue retention tools and a seamless customer experience - without the technical hurdles.</strong></p>
+                <section class= "hdr-buttons">
+                    <button type="button" class="btn btn-primary"><strong>Sign Up Free &#187;</strong></button>
+                    <button type="button" class="btn btn-outline-primary"><strong><span><i class="fas fa-comment-dots"></i></span>&nbsp; Chat With Us</strong></button>
+                </section>
+                <br />
+                <p>Already using <strong>Double</strong>Tap? <strong>Sign In</strong></>
+                <div id="left-col-bottom">
+                    <span>Free 14 day trial</span> <span class= "bullets">&nbsp; • &nbsp;</span> <span>Manage Customers in Minutes</span> <span class=bullets>&nbsp; • &nbsp;</span> <span>Cancel at Anytime</span>
+                </div>
+            </div>
+            <div class="header_right col">
                 <img src="images/header-side-1.png" alt="header-side-1"></img>
             </div>
         </div>
-    
         <!--End of Header image-->
+
 
         <!-- How it works and First Lorem Text -->
         <div class="row" id="lorem1">
@@ -108,31 +115,22 @@
 
     <footer class="footer-row">
         <div class="container-footer">
-            <p>
-            <h1>Try Double Tap Today!</h1>
-            <h3 id=lets-get-started>Let's Get Started</h3>
-            </p>
-            <div class="footer-buttons">
+            <h1>Try Double Tap Today!</h1> <!--Try Double tap-->
+            <h3 id=lets-get-started>Let's Get Started</h3> <!--Let's get started-->
+            <div class="footer-buttons"><!--Buttons start-->
                 <button class="get-started" type="button">
-                    <strong> Get Started 
-                        &nbsp; &#187;</strong>
+                    <strong> Get Started &nbsp; &#187;</strong>
                 </button>
                 <button class="chat-with-us" type="button">
-                    <span>
-                        <i class="fas fa-comment-dots"></i>
-                    </span>
-                    <strong>Chat With Us</strong>
+                    <span><i class="fas fa-comment-dots"></i></span><strong>&nbsp; Chat With Us</strong>
                 </button>
-            </div>
+            </div><!--Buttons end-->
             <br />
-            <div class="footer-dot-line">
+            <div class="footer-dot-line"> <!--last line-->
                 <span>Free 14 day trial </span>
-                <span>&nbsp;
-                    <i class="fas fa-circle"></i> &nbsp;
-                </span>
-                <span>Manage Customers in Minutes</span> <span></span>&nbsp;
-                    <i class="fas fa-circle"></i> &nbsp;
-                </span>
+                <span> &nbsp; <i class="fas fa-circle"></i> &nbsp;</span>
+                <span>Manage Customers in Minutes</span> 
+                <span>&nbsp; <i class="fas fa-circle"></i> &nbsp;</span>
                 <span> Cancel at Anytime</span>
             </div>
         </div>

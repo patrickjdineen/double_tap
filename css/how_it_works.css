@@ -101,6 +101,7 @@ body{
 .lorem1 h4{
     font-weight: bold;
     font-size:1.8vw;
+    margin-bottom:3vw;
 }
 
 /* Collect Useful Info Container */

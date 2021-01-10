@@ -92,15 +92,16 @@ body{
 }
 /* How it Works and First Lorem Text*/
 
-#lorem1{
+.lorem1{
     border-top: solid grey 1px;
-    margin: 10vw 24.5vw 0 24.5vw;
+    margin: 10vw 26vw 0 26vw;
     padding: 3vw;
     text-align: center;
 }
-#lorem1 h4{
+.lorem1 h4{
     font-weight: bold;
     font-size:1.8vw;
+    margin-bottom:3vw;
 }
 
 /* Collect Useful Info Container */
@@ -141,12 +142,12 @@ body{
 }
 
 /* Second Lorem Text */
-#lorem2{
-    margin: 10vw 24.5vw 1.5vw 24.5vw;
+.lorem2{
+    margin: 10vw 26vw 1.5vw 26vw;
     padding: 3vw;
     text-align: center;
 }
-#lorem2 h4{
+.lorem2 h4{
     font-weight: bold;
     font-size:1.8vw;
 }

@@ -29,8 +29,14 @@ body{
     color:0314FE;
 }
 
+
 #nav_bar .btn-primary{
     color:white
+}
+.nav_bar .btn-primary{
+    color:white;
+    background-color:0314FE;
+
 }
 
     /* Changes NavBar list items to horizontal*/
@@ -41,11 +47,35 @@ body{
 /* End Nav Bar */
 
 
+
 /* start Focus on your business -Pat and Alejandro*/
 #hdr-main{
     display: flex;
     align-items: center;
+
+/* Header Styling*/
+.header_right img{
+  max-height:90%;
+  max-width:90%;
+  display:block;
+  margin-left:auto;
+  margin-right:0;
 }
+.header_left h1{
+    font-weight:bold;
+    padding-top:1vh;
+    font-size:4rem;
+}
+.header_left span{
+    padding-top:1vh
+}
+.header_left p{
+    padding-top:1vh;
+    color:grey;
+    font-size:1rem;
+
+}
+/*end of header styling*/
 
 #hdr-left{
     display:flex;

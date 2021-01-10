@@ -57,7 +57,7 @@
 
 #lorem1{
     border-top: solid grey 1px;
-    margin: 10vw 22vw 0 22vw;
+    margin: 10vw 24.5vw 0 24.5vw;
     padding: 3vw;
     text-align: center;
 }
@@ -105,8 +105,8 @@
 
 /* Second Lorem Text */
 #lorem2{
-    margin: 10vw 22vw 1.5vw 22vw;
-    padding: 3.5vh;
+    margin: 10vw 24.5vw 1.5vw 24.5vw;
+    padding: 3vw;
     text-align: center;
 }
 #lorem2 h4{
@@ -130,7 +130,7 @@
 /* container image */
 .get-paid-img{
     width: 85%;
-    margin: 5vw 0;
+    margin: 2.3vw 0;
 }
 /* right side of container */
 .get-paid-right{

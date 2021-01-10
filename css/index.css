@@ -97,11 +97,14 @@ body{
 /* Start Accepting Payments with Ease Section and dividing bar -Alejandro*/
 hr.solid {
     border-top: 4px solid #bbb;
-
 }
-
 #payments{
     background-color: #0314FE;
+}
+
+#explain{
+    font-weight:lightest;
+    text-align:center;
 }
 
 #payments, #retain, #reporting, #convert{ 
@@ -234,9 +237,8 @@ hr.solid {
 
 
 /*Start solutions to fit your business needs*/
-.text-center{
-    font-size: 1.5rem;
-    font-weight:bold
+#four-boxes{
+    justify-content:space-evenly;
 }
 .solutions-top, .solutions-bottom{
     display: flex;
@@ -280,6 +282,10 @@ hr.solid {
 .solution-title{
     font-size: 1.4rem;
     font-weight: bold;
+}
+
+.btn-outline-dark{
+    margin-top:2vh;
 }
 /*End solutions to fit your business needs*/
 

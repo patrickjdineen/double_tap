@@ -53,6 +53,104 @@
   }
   /*end of header styling*/
 
+/* How it Works and First Lorem Text*/
+
+#lorem1{
+    border-top: solid grey 1px;
+    margin: 10vw 24.5vw 0 24.5vw;
+    padding: 3vw;
+    text-align: center;
+}
+#lorem1 h4{
+    font-weight: bold;
+    font-size:1.8vw;
+}
+
+/* Collect Useful Info Container */
+
+/* the whole container */
+.collect{
+    display: flex;
+    flex-direction: row;
+    margin: 1.8vw 12vw 10vw 12vw;
+}
+/* left side of container */
+.collect-left{
+    width:40%;
+    border: 1px solid grey;
+    border-radius: 1rem 0rem 0rem 1rem;    
+}
+/* container image */
+.collect-img{
+    width: 90%;
+    margin: 25% 0 35% 0;
+}
+/* right side of container */
+.collect-right{
+    width:60%;
+    padding-left: 2vw;
+    border: 1px solid grey;
+    border-radius: 0rem 1rem 1rem 0rem;    
+    background-color: rgba(18 64 238);
+}
+.collect-right h4{
+    margin: 15% 0 15% 20%;
+    font-size: 1.8vw;
+}
+.collect-right p{
+    margin-left: 5%;
+    font-size: 1.3vw;
+    font-weight:600;
+}
+
+/* Second Lorem Text */
+#lorem2{
+    margin: 10vw 24.5vw 1.5vw 24.5vw;
+    padding: 3vw;
+    text-align: center;
+}
+#lorem2 h4{
+    font-weight: bold;
+    font-size:1.8vw;
+}
+
+/* Get Paid Sooner Container */
+
+/* the whole container */
+.get-paid{
+    display: flex;
+    flex-direction: row;
+    margin: 3vw 12vw 8vw 12vw;
+}
+/* left side of container */
+.get-paid-left{
+    width:40%;
+    padding: 2vw 2vw;   
+}
+/* container image */
+.get-paid-img{
+    width: 85%;
+    margin: 2.3vw 0;
+}
+/* right side of container */
+.get-paid-right{
+    width:60%;
+    border: 1px solid grey;
+    border-radius: 0rem 1rem 1rem 0rem;    
+    background-color: rgba(18 64 238);
+}
+.get-paid-right h2{
+    text-align: center;
+    margin: 6vw 0;
+    font-size:2.2vw;
+}
+.get-paid-right p{
+    margin-left: 5%;
+    margin-right: 1.1vw;
+    font-size:1.1vw;
+}
+
+
 /* Footer Style*/
 
 .footer-row{

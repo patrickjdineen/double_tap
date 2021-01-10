@@ -1,32 +1,37 @@
-/*Nav Bar Styling*/
-.nav_bar{
+/*start Nav Bar*/
+#nav_bar{
     display:flex;
     color:grey;
     align-self:flex-end;
     justify-content: space-between;
-    padding:1vh 5vw 0;
     align-items:flex-end;
     align-content:flex-end;
-    flex-wrap:wrap;
     margin-bottom: 10vh;
 }
-/* Coloring and removal of underlines on navbar links*/
-.nav_bar a{
+
+    /* Coloring and removal of underlines on navbar links*/
+#nav_bar a{
     font-family:sans-serif;
     text-decoration: none;
     color:black;
 }
-/* Coloring on buttons*/
-.nav_bar .btn-outline-primary{
+
+    /* Coloring on buttons*/
+#nav_bar .btn-outline-primary{
     color:0314FE;
 }
-.nav_bar .btn-primary{
+
+#nav_bar .btn-primary{
     color:white
 }
-/* Changes NavBar list items to horizonta;*/
-.nav_bar li{
+#nav_bar .btn-primary{
+    color:white;
+    background-color:0314FE;
+}
+    /* Changes NavBar list items to horizontal*/
+#nav_bar li{
     display:inline-block;
-    padding:0 1vw 0 1vw;
+    padding:0 0.5vw 0 0.5vw;
 }
 /* End Nav Bar */
 

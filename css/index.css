@@ -29,16 +29,13 @@ body{
     color:0314FE;
 }
 
-
 #nav_bar .btn-primary{
     color:white
 }
-.nav_bar .btn-primary{
+#nav_bar .btn-primary{
     color:white;
     background-color:0314FE;
-
 }
-
     /* Changes NavBar list items to horizontal*/
 #nav_bar li{
     display:inline-block;

@@ -1,6 +1,5 @@
 # double_tap
 
-
 Navbar
 Pat Dineen
 
@@ -30,3 +29,4 @@ George
 Sign Up Page
 Pat Dineen
 George
+

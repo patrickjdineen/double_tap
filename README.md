@@ -10,10 +10,12 @@ Alejandro Beltran
 Start to Explore Double Tap Icons
 Halim Majdid
 Will Bush
+Alejandro Beltan
 
 Start Accepting Payments with Ease Container
 Santiago Ruiz
 Will Bush
+Alendadro Beltan
 
 Footer
 Alejandro Beltram
@@ -24,12 +26,12 @@ Will Bush
 
 Sign In page
 Pat Dineen
-George
+George Lembah
 Halim Majdid
 Will Bush
 
 Sign Up Page
 Pat Dineen
-George
+George Lembah
 Halim Majdid
 Will Bush

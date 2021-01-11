@@ -106,15 +106,15 @@ hr.solid {
     font-weight:lightest;
     text-align:center;
 }
-
+/*Changed px to rem on width and height*/
 #payments, #retain, #reporting, #convert{ 
     margin: 3vh 1vw;
     padding: 0.5vh 0.5vw;
     align-items: center;
     border-style: solid;
     border-radius: 2vw;
-    max-width: 250px;
-    max-height: 300px;
+    max-width: 33rem;
+    max-height: 30rem;
 }
 
 #payments img, #retain img, #reporting img, #convert img{
@@ -122,8 +122,8 @@ hr.solid {
     align-self: center;
     padding: 0;
     margin: 20px auto; 
-    width: 125px;
-    height: 125px;
+    width: 8rem;
+    height: 8rem;
 }
 
 #payments p, #retain p, #reporting p, #convert p{

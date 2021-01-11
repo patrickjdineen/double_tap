@@ -1,9 +1,9 @@
 html{
     font-family:sans-serif;
 }
-
-body{
-    font-family: sans-serif;
+.container{
+    margin:0;
+    padding:0;
 }
 
 /*Left side of the page*/

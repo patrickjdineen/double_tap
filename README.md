@@ -25,8 +25,11 @@ Will Bush
 Sign In page
 Pat Dineen
 George
+Halim Majdid
+Will Bush
 
 Sign Up Page
 Pat Dineen
 George
-
+Halim Majdid
+Will Bush

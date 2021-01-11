@@ -26,14 +26,31 @@ body{
     padding-top:5vh;
 }
 /*Right side of the page*/
+h1{
+    margin-bottom:2vw;
+    font-weight: 800;
+}
 .right{
     align-items:center;
     justify-content: center;
     text-align:center;
 }
 .form-group{
-    padding:1vh;
+    padding:2.5vh;
 }
+.form-group .form-control-icon{
+    position: absolute;
+    display: block;
+    line-height: 2.4rem;
+    margin-left: 1.5vw;
+    font-size: 1vw;
+}
+.form-group input {
+    display:inline-block;
+    text-align:left;
+    text-indent: 2vw;
+}
+
 
 /* Both side buttons*/
 .btn-primary{
@@ -42,4 +59,5 @@ body{
     background-color:#0314FE;
     border: solid white;
     border-radius:100;
+    width:10vw;
 }

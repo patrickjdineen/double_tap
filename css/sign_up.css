@@ -13,6 +13,7 @@ body{
     background-color:#0314FE;
     border: solid white;
     border-radius:100;
+    width:10vw;
 }
 .left{
     align-items:center;
@@ -21,7 +22,30 @@ body{
     padding-top:5vh;
 }
 .form-group{
-    padding:1vh;
+    padding:2vh;
+}
+
+.form-group .form-control-icon{
+    position: absolute;
+    display: block;
+    line-height: 2.4rem;
+    margin-left: 1.5vw;
+    font-size: 1vw;
+}
+.form-group input {
+    display:inline-block;
+    text-align:left;
+    text-indent: 2vw;
+}
+h2 {
+    font-weight: 700;
+}
+p {
+    font-size:1vw;
+    font-weight:700;
+}
+.social_images img{
+    padding:0 .8vw;
 }
 
 /*Right side of the page*/

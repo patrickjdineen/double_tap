@@ -1,37 +1,5 @@
 # double_tap
 
-Navbar
-Pat Dineen
+This web page was built from scratch from component parts provided as images in class.
 
-Header image
-Pat Dineen
-Alejandro Beltran
-
-Start to Explore Double Tap Icons
-Halim Majdid
-Will Bush
-Alejandro Beltan
-
-Start Accepting Payments with Ease Container
-Santiago Ruiz
-Will Bush
-Alendadro Beltan
-
-Footer
-Alejandro Beltram
-Halim Majdid
-
-How it Works page
-Will Bush
-
-Sign In page
-Pat Dineen
-George Lembah
-Halim Majdid
-Will Bush
-
-Sign Up Page
-Pat Dineen
-George Lembah
-Halim Majdid
-Will Bush
+This was a group project, utilizing GitHub, forking, branching, pull requests and collaboration.
